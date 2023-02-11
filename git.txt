@@ -1,0 +1,34 @@
+//cuenta correo: jflorespampano@hotmail.com
+//81..16
+
+cuenta github: jfloreshotmail
+correo: jflorespampano@hotmail.com
+pass: 83..B
+
+invitar colaboradores
+en el proyecto en github ir a settings
+en colaborators dar add people
+elegir el colaborador por correo
+el usuario recibe una notificacion y debera aceptar 
+
+**en el colaborador**
+git init
+git branch -M main //renombrar la rama
+//acces token
+git config user.name nombre
+git config user.email email
+git config user.password poner el acces token
+
+*
+git remote add origin el remoto
+//traer cambios
+git pull origin main
+//hacer cambios
+//agrgar a escenario
+git add .
+//comprometer los cambios
+git commit -m "mensaje"
+//subir los cambios
+git push origin main
+
+
